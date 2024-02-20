@@ -181,7 +181,7 @@ nav{
     border-radius: 5px;
 }
 .featured-name{
-    font-size: 30px;
+    font-size:30px;
     font-weight: 600;
     color: var(--text-color-second);
     margin-block: 20px;
@@ -622,7 +622,7 @@ footer{
 
 @media only screen and (max-width: 540px){
     .featured-name{
-        font-size: 40px;
+        font-size: 30px;
     }
     .project-box{
         width: 100%;
