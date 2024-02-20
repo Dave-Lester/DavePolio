@@ -214,7 +214,7 @@ nav{
     
 }
 .featured-text-info{
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 30px;
     color: var(--text-color-second);
 }
@@ -645,7 +645,7 @@ footer{
 
 @media only screen and (max-width: 540px){
     .featured-name{
-        font-size: 30px;
+        font-size: 28px;
     }
     .project-box{
         width: 100%;
