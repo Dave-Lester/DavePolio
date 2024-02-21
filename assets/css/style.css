@@ -195,10 +195,10 @@ nav{
     padding-left: 20px;
 }
 .featured-text-card span{
-    background: var(--third-color);
-    color: var(--color-white);
+    background: #f1f1f1;
+    color: var(--text-color-second);
     padding: 3px 8px;
-    font-size: 12px;
+    font-size: 11px;
     border-radius: 5px;
 }
 .featured-name{
@@ -209,7 +209,7 @@ nav{
 }
 .typedText{
     text-transform: capitalize;
-    color: var(--text-color-third);
+    color: var(--first-color);
    
     
 }
@@ -645,7 +645,7 @@ footer{
 
 @media only screen and (max-width: 540px){
     .featured-name{
-        font-size: 28px;
+        font-size: 25px;
     }
     .project-box{
         width: 100%;
