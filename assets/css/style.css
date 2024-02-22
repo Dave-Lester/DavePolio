@@ -409,6 +409,9 @@ h3{
     margin-top: 35px;
     
 }
+.project-box> col{
+    justify-content: center;
+}
 .project-box label{
     font-size: 15px;
     color: #777;
