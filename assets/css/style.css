@@ -389,7 +389,7 @@ h3{
 }
 .project-container h3 {
     margin: auto;
-    font-size: 15px;
+    font-size: 12px;
 }
 .project-box{
     position: relative;
@@ -545,7 +545,7 @@ footer{
     color: var(--text-color-second);
     font-weight: 400;
     font-size: 12px;
-    margin-inline: 20px;
+    margin-inline: 10px;
 }
 .footer-social-icons{
     display: flex;
@@ -594,6 +594,7 @@ footer{
     }
     .nav_menu_list{
         flex-direction: column;
+        font-size: 12px;
     }
     .nav-menu-btn{
         display: flex;
