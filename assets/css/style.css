@@ -80,6 +80,9 @@ body{
     width: 100%;
     position: relative;
 }
+.techStack h1 {
+    justify-content: center;
+}
 
 .icon-container i {
     margin: 10px;
