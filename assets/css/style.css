@@ -113,10 +113,11 @@ nav{
     width: 100%;
     height: 90px;
     line-height: 90px;
-    background: #ffffff;
+    background: #0f172abf;
     padding-inline: 9vw;
     transition: .3s;
     z-index: 100;
+    
 }
 .nav-logo{
    position: relative;
@@ -124,7 +125,7 @@ nav{
 .nav-name{
     font-size: 30px;
     font-weight: 600;
-    color: var(--first-color);
+    color: RGB(148, 163, 184);
 }
 .nav-logo span{
     position: absolute;
@@ -142,7 +143,7 @@ nav{
 }
 .nav-link{
     text-decoration: none;
-    color: var(--text-color-second);
+    
     font-weight: 500;
     padding-inline: 15px;
     margin-inline: 20px;
@@ -156,7 +157,7 @@ nav{
 }
 .active-link{
     position: relative;
-    color: var(--first-color);
+  
     transition: .3;
 }
 .active-link::after{
@@ -167,7 +168,7 @@ nav{
     transform: translate(-50%, -50%);
     width: 5px;
     height: 5px;
-    background: var(--first-color);
+    
     border-radius: 50%;
 }
 
@@ -197,8 +198,8 @@ nav{
     padding-left: 20px;
 }
 .featured-text-card span{
-    background: #f1f1f1;
-    color: var(--text-color-second);
+    background: RGB(30, 41, 59);
+    color: #ffffff;
     padding: 3px 8px;
     font-size: 11px;
     border-radius: 5px;
@@ -206,7 +207,7 @@ nav{
 .featured-name{
     font-size:30px;
     font-weight: 600;
-    color: var(--text-color-second);
+    color: RGB(148, 163, 184);
     margin-block: 20px;
 }
 .typedText{
@@ -225,13 +226,14 @@ nav{
     display: flex;
     gap: 20px;
     font-size: 11px;
+    
 }
 .featured-text-btn>.blue-btn{
-    background: var(--first-color);
-    color: var(--color-white);
+  
+    
 }
 .featured-text-btn>.blue-btn:hover{
-    background: var(--first-color-hover);
+   
 }
 .social_icons{
     display: flex;
@@ -320,7 +322,7 @@ nav{
 }
 .top-header h1{
     font-weight: 600;
-    color: var(--text-color-second);
+    color: #ffff;
     margin-bottom: 10px;
 }
 .top-header span{
@@ -417,7 +419,7 @@ h3{
 }
 .project-box label{
     font-size: 15px;
-    color: #777;
+    color: #ffffff;
 }
 .project-box::after, .contact-info::after{
     content: "";
@@ -545,7 +547,7 @@ footer{
 }
 .footer_menu_list a{
     text-decoration: none;
-    color: var(--text-color-second);
+    color: #aaaaaa;
     font-weight: 400;
     font-size: 12px;
     margin-inline: 10px;
@@ -588,16 +590,18 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(255, 255, 255, 0.7);
+        background: rgb(30 41 59);
         backdrop-filter: blur(20px);
         width: 100%;
         min-height: 450px;
         height: 90vh;
         transition: .3s;
+        border: #f8fafc0f;
     }
     .nav_menu_list{
         flex-direction: column;
         font-size: 12px;
+        color: #999;
 
     }
     .nav-menu-btn{
