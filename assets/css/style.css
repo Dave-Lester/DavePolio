@@ -322,7 +322,6 @@ nav{
 }
 .top-header h1{
     font-weight: 600;
-    color: #ffff;
     margin-bottom: 10px;
 }
 .top-header span{
@@ -456,14 +455,13 @@ h3{
     overflow: hidden;
 }
 .contact-info>h2{
-    color: #777;
     margin-bottom: 20px;
 }
 .contact-info>p{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #777;
+    
     margin-block: 5px;
 }
 .contact-info p>i{
@@ -475,7 +473,7 @@ h3{
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
-    color: #777;
+    
     z-index: 2;
 }
 
